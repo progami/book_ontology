@@ -1,0 +1,133 @@
+{
+  "graphs" : [ {
+    "id" : "http://example.com/book.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "val" : "An ontology for categorizing books by various educational criteria"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "val" : "Book Ontology"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://creativecommons.org/licenses/by/4.0/"
+      } ],
+      "version" : "http://example.com/book/2025-02-26/book.owl"
+    },
+    "nodes" : [ {
+      "id" : "http://example.com/book/3000001",
+      "lbl" : "Romeo and Juliet",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "comments" : [ "Wiliam Shakespeare" ]
+      }
+    }, {
+      "id" : "http://example.com/book/3000002",
+      "lbl" : "To Kill a Mockingbird",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "comments" : [ "Harper Lee" ]
+      }
+    }, {
+      "id" : "http://example.com/book/3000003",
+      "lbl" : "Great Gatsby",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "comments" : [ "F. Scott Fitzgerald" ]
+      }
+    }, {
+      "id" : "http://example.com/book/3000004",
+      "lbl" : "Of Mice and Men",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "comments" : [ "John Steinbeck" ]
+      }
+    }, {
+      "id" : "http://example.com/book/3000005",
+      "lbl" : "Lord of the Flies",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "comments" : [ "William Golding" ]
+      }
+    }, {
+      "id" : "http://example.com/book/3000006",
+      "lbl" : "Fahrenheit 451",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000007",
+      "lbl" : "Animal Farm",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000008",
+      "lbl" : "Julius Caesar",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000009",
+      "lbl" : "Macbeth",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000010",
+      "lbl" : "1984",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000011",
+      "lbl" : "Odyssey, The",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000012",
+      "lbl" : "Crucible, The",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000013",
+      "lbl" : "Scarlet Letter, The",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000014",
+      "lbl" : "Huckleberry Finn",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000015",
+      "lbl" : "Grapes of Wrath",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000016",
+      "lbl" : "Hamlet",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000017",
+      "lbl" : "Frankenstein",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000018",
+      "lbl" : "Beowulf",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000019",
+      "lbl" : "Canterbury Tales",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000020",
+      "lbl" : "Brave New World",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://example.com/book/3000021",
+      "lbl" : "Thousand Splendid Suns",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "comments" : [ "Khaled Hosseini" ]
+      }
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/description",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/title",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ]
+  } ]
+}

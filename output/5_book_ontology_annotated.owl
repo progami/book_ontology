@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/book.owl#"
+     xml:base="http://example.com/book.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://example.com/book.owl">
+        <owl:versionIRI rdf:resource="http://example.com/book/2025-02-26/book.owl"/>
+        <dc:description>An ontology for categorizing books by various educational criteria</dc:description>
+        <dc:title>Book Ontology</dc:title>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.com/book/3000001 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000001">
+        <rdfs:comment>Wiliam Shakespeare</rdfs:comment>
+        <rdfs:label>Romeo and Juliet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000002 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000002">
+        <rdfs:comment>Harper Lee</rdfs:comment>
+        <rdfs:label>To Kill a Mockingbird</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000003 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000003">
+        <rdfs:comment>F. Scott Fitzgerald</rdfs:comment>
+        <rdfs:label>Great Gatsby</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000004 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000004">
+        <rdfs:comment>John Steinbeck</rdfs:comment>
+        <rdfs:label>Of Mice and Men</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000005 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000005">
+        <rdfs:comment>William Golding</rdfs:comment>
+        <rdfs:label>Lord of the Flies</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000006 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000006">
+        <rdfs:label>Fahrenheit 451</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000007 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000007">
+        <rdfs:label>Animal Farm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000008 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000008">
+        <rdfs:label>Julius Caesar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000009 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000009">
+        <rdfs:label>Macbeth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000010 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000010">
+        <rdfs:label>1984</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000011 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000011">
+        <rdfs:label>Odyssey, The</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000012 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000012">
+        <rdfs:label>Crucible, The</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000013 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000013">
+        <rdfs:label>Scarlet Letter, The</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000014 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000014">
+        <rdfs:label>Huckleberry Finn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000015 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000015">
+        <rdfs:label>Grapes of Wrath</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000016 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000016">
+        <rdfs:label>Hamlet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000017 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000017">
+        <rdfs:label>Frankenstein</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000018 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000018">
+        <rdfs:label>Beowulf</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000019 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000019">
+        <rdfs:label>Canterbury Tales</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000020 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000020">
+        <rdfs:label>Brave New World</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/book/3000021 -->
+
+    <owl:NamedIndividual rdf:about="http://example.com/book/3000021">
+        <rdfs:comment>Khaled Hosseini</rdfs:comment>
+        <rdfs:label>Thousand Splendid Suns</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

@@ -70,68 +70,8 @@
 
     <DatatypeProperty rdf:about="http://example.com/book/2000002">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:IAO_0000115>The year the book was published</obo:IAO_0000115>
-        <rdfs:label>yearOfPublication</rdfs:label>
-    </DatatypeProperty>
-    
-
-
-    <!-- http://example.com/book/2000003 -->
-
-    <DatatypeProperty rdf:about="http://example.com/book/2000003">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:IAO_0000115>The number of pages in the book</obo:IAO_0000115>
-        <rdfs:label>pages</rdfs:label>
-    </DatatypeProperty>
-    
-
-
-    <!-- http://example.com/book/2000004 -->
-
-    <DatatypeProperty rdf:about="http://example.com/book/2000004">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <obo:IAO_0000115>The author of the book</obo:IAO_0000115>
         <rdfs:label>author</rdfs:label>
-    </DatatypeProperty>
-    
-
-
-    <!-- http://example.com/book/2000005 -->
-
-    <DatatypeProperty rdf:about="http://example.com/book/2000005">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:IAO_0000115>A brief summary of the book&apos;s content</obo:IAO_0000115>
-        <rdfs:label>summary</rdfs:label>
-    </DatatypeProperty>
-    
-
-
-    <!-- http://example.com/book/2000006 -->
-
-    <DatatypeProperty rdf:about="http://example.com/book/2000006">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:IAO_0000115>The numerical Lexile measure of text complexity</obo:IAO_0000115>
-        <rdfs:label>lexile score</rdfs:label>
-    </DatatypeProperty>
-    
-
-
-    <!-- http://example.com/book/2000007 -->
-
-    <DatatypeProperty rdf:about="http://example.com/book/2000007">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:IAO_0000115>The numerical Flesch-Kincaid readability score</obo:IAO_0000115>
-        <rdfs:label>flesch score</rdfs:label>
-    </DatatypeProperty>
-    
-
-
-    <!-- http://example.com/book/2000008 -->
-
-    <DatatypeProperty rdf:about="http://example.com/book/2000008">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <obo:IAO_0000115>The numerical ATOS readability score</obo:IAO_0000115>
-        <rdfs:label>atos score</rdfs:label>
     </DatatypeProperty>
 </rdf:RDF>
 

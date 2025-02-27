@@ -1,10 +1,4 @@
 ID,Label,Type,Domain,Range,Definition
 ID,LABEL,TYPE,DOMAIN,RANGE,A IAO:0000115
 BOOK:2000001,title,owl:DatatypeProperty,BOOK:0000001,xsd:string,The title of the book
-BOOK:2000002,yearOfPublication,owl:DatatypeProperty,BOOK:0000001,xsd:integer,The year the book was published
-BOOK:2000003,pages,owl:DatatypeProperty,BOOK:0000001,xsd:integer,The number of pages in the book
-BOOK:2000004,author,owl:DatatypeProperty,BOOK:0000001,xsd:string,The author of the book
-BOOK:2000005,summary,owl:DatatypeProperty,BOOK:0000001,xsd:string,A brief summary of the book's content
-BOOK:2000006,lexile score,owl:DatatypeProperty,BOOK:0000007,xsd:integer,The numerical Lexile measure of text complexity
-BOOK:2000007,flesch score,owl:DatatypeProperty,BOOK:0000008,xsd:decimal,The numerical Flesch-Kincaid readability score
-BOOK:2000008,atos score,owl:DatatypeProperty,BOOK:0000006,xsd:decimal,The numerical ATOS readability score
+BOOK:2000002,author,owl:DatatypeProperty,BOOK:0000001,xsd:string,The author of the book

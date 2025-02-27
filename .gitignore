@@ -1,0 +1,45 @@
+# macOS artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build, distribution, and packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing, coverage, and CI
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Temporary and backup files
+*~
+*.tmp
+

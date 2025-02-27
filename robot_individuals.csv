@@ -1,0 +1,23 @@
+ID,Label,Type,Instance Of,Title,Author,Year,Pages,Summary
+ID,LABEL,TYPE,TI %,I BOOK:2000001,I BOOK:2000004,I BOOK:2000002,I BOOK:2000003,I BOOK:2000005
+BOOK:3000001,Romeo and Juliet,owl:NamedIndividual,BOOK:0000001,Romeo and Juliet,Wiliam Shakespeare,1595,257,Shakespeare's play about two young people who defy their warring families' prejudices and dare to fall in love.
+BOOK:3000002,To Kill a Mockingbird,owl:NamedIndividual,BOOK:0000001,To Kill a Mockingbird,Harper Lee,1960,323,"Scout Finch, daughter of the town lawyer, likes to spend her summers building treehouses, swimming, and catching lightning bugs with her big brother Jem. But one summer, when a black man is accused of raping a white woman, Scout's carefree days come to an end. In the county courtroom, she will join her father in a desperate battle against ignorance and prejudice."
+BOOK:3000003,Great Gatsby,owl:NamedIndividual,BOOK:0000001,Great Gatsby,F. Scott Fitzgerald,1925,216,"Newly rich Jay Gatsby tries to recapture the past and win back Daisy Buchanan, his former love, despite the fact she has married."
+BOOK:3000004,Of Mice and Men,owl:NamedIndividual,BOOK:0000001,Of Mice and Men,John Steinbeck,1937,118,"The tragic story of two itinerant ranch hands on the run during the Great Depression--one is the lifelong companion to the other, a developmentally disabled man."
+BOOK:3000005,Lord of the Flies,owl:NamedIndividual,BOOK:0000001,Lord of the Flies,William Golding,1954,224,The classic study of human nature which depicts the degeneration of a group of schoolboys marooned on a desert island.
+BOOK:3000006,Fahrenheit 451,owl:NamedIndividual,BOOK:0000001,Fahrenheit 451,nan,,,nan
+BOOK:3000007,Animal Farm,owl:NamedIndividual,BOOK:0000001,Animal Farm,nan,,,nan
+BOOK:3000008,Julius Caesar,owl:NamedIndividual,BOOK:0000001,Julius Caesar,nan,,,nan
+BOOK:3000009,Macbeth,owl:NamedIndividual,BOOK:0000001,Macbeth,nan,,,nan
+BOOK:3000010,1984,owl:NamedIndividual,BOOK:0000001,1984,nan,,,nan
+BOOK:3000011,"Odyssey, The",owl:NamedIndividual,BOOK:0000001,"Odyssey, The",nan,,,nan
+BOOK:3000012,"Crucible, The",owl:NamedIndividual,BOOK:0000001,"Crucible, The",nan,,,nan
+BOOK:3000013,"Scarlet Letter, The",owl:NamedIndividual,BOOK:0000001,"Scarlet Letter, The",nan,,,nan
+BOOK:3000014,Huckleberry Finn,owl:NamedIndividual,BOOK:0000001,Huckleberry Finn,nan,,,nan
+BOOK:3000015,Grapes of Wrath,owl:NamedIndividual,BOOK:0000001,Grapes of Wrath,nan,,,nan
+BOOK:3000016,Hamlet,owl:NamedIndividual,BOOK:0000001,Hamlet,nan,,,nan
+BOOK:3000017,Frankenstein,owl:NamedIndividual,BOOK:0000001,Frankenstein,nan,,,nan
+BOOK:3000018,Beowulf,owl:NamedIndividual,BOOK:0000001,Beowulf,nan,,,nan
+BOOK:3000019,Canterbury Tales,owl:NamedIndividual,BOOK:0000001,Canterbury Tales,nan,,,nan
+BOOK:3000020,Brave New World,owl:NamedIndividual,BOOK:0000001,Brave New World,nan,,,nan
+BOOK:3000021,Thousand Splendid Suns,owl:NamedIndividual,BOOK:0000001,Thousand Splendid Suns,Khaled Hosseini,2008,432,"A Thousand Splendid Suns is at once an incredible chronicle of thirty years of Afghan history and a deeply moving story of family, friendship, faith, and the salvation to be found in love."

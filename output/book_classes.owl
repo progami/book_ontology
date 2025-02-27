@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/book.owl#"
+     xml:base="http://example.com/book.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://example.com/book.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.com/book/0000001 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000001">
+        <obo:IAO_0000115>A published work consisting of pages</obo:IAO_0000115>
+        <rdfs:comment>The root class for all books</rdfs:comment>
+        <rdfs:label>book</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000002 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000002">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000001"/>
+        <obo:IAO_0000115>Measures that provide numerical assessment of text complexity</obo:IAO_0000115>
+        <rdfs:label>Quantitative measures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000003 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000003">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000001"/>
+        <obo:IAO_0000115>Measures that provide subjective assessment of text complexity</obo:IAO_0000115>
+        <rdfs:label>Qualitative measures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000004 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000004">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000001"/>
+        <obo:IAO_0000115>General descriptive categories for books</obo:IAO_0000115>
+        <rdfs:label>General descriptors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000005 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000005">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000001"/>
+        <obo:IAO_0000115>Descriptors related to educational value</obo:IAO_0000115>
+        <rdfs:label>Instructional merit descriptors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000006 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000006">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000002"/>
+        <obo:IAO_0000115>A readability formula for books and other materials</obo:IAO_0000115>
+        <rdfs:label>ATOS reading level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000007 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000007">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000002"/>
+        <obo:IAO_0000115>A scale for measuring reader ability and text difficulty</obo:IAO_0000115>
+        <rdfs:label>Lexile level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000008 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000008">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000002"/>
+        <obo:IAO_0000115>A readability test designed to indicate comprehension difficulty</obo:IAO_0000115>
+        <rdfs:label>Flesch kincaid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000009 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000009">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000003"/>
+        <obo:IAO_0000115>The depth and complexity of meanings within a text</obo:IAO_0000115>
+        <rdfs:label>levels of meaning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000010 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000010">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000003"/>
+        <obo:IAO_0000115>Prior knowledge required to understand the text</obo:IAO_0000115>
+        <rdfs:label>knowledge demands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000011 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000011">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000003"/>
+        <obo:IAO_0000115>The organizational pattern of the text</obo:IAO_0000115>
+        <rdfs:label>text structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000012 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000012">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000003"/>
+        <obo:IAO_0000115>The clarity and accessibility of the language used</obo:IAO_0000115>
+        <rdfs:label>language conventionality and clarity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000013 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000013">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000004"/>
+        <obo:IAO_0000115>A category of literary composition</obo:IAO_0000115>
+        <rdfs:label>genre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000014 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000014">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000004"/>
+        <obo:IAO_0000115>The subject matter of a text</obo:IAO_0000115>
+        <rdfs:label>topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/book/0000015 -->
+
+    <owl:Class rdf:about="http://example.com/book/0000015">
+        <rdfs:subClassOf rdf:resource="http://example.com/book/0000004"/>
+        <obo:IAO_0000115>A subcategory within a genre</obo:IAO_0000115>
+        <rdfs:label>subgenre</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

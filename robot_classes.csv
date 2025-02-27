@@ -1,0 +1,17 @@
+ID,Label,Type,Subclass Of,Definition,Comment
+ID,LABEL,TYPE,SC %,A IAO:0000115,A rdfs:comment
+BOOK:0000001,book,owl:Class,,A published work consisting of pages,The root class for all books
+BOOK:0000002,Quantitative measures,owl:Class,BOOK:0000001,Measures that provide numerical assessment of text complexity,
+BOOK:0000003,Qualitative measures,owl:Class,BOOK:0000001,Measures that provide subjective assessment of text complexity,
+BOOK:0000004,General descriptors,owl:Class,BOOK:0000001,General descriptive categories for books,
+BOOK:0000005,Instructional merit descriptors,owl:Class,BOOK:0000001,Descriptors related to educational value,
+BOOK:0000006,ATOS reading level,owl:Class,BOOK:0000002,A readability formula for books and other materials,
+BOOK:0000007,Lexile level,owl:Class,BOOK:0000002,A scale for measuring reader ability and text difficulty,
+BOOK:0000008,Flesch kincaid,owl:Class,BOOK:0000002,A readability test designed to indicate comprehension difficulty,
+BOOK:0000009,levels of meaning,owl:Class,BOOK:0000003,The depth and complexity of meanings within a text,
+BOOK:0000010,knowledge demands,owl:Class,BOOK:0000003,Prior knowledge required to understand the text,
+BOOK:0000011,text structure,owl:Class,BOOK:0000003,The organizational pattern of the text,
+BOOK:0000012,language conventionality and clarity,owl:Class,BOOK:0000003,The clarity and accessibility of the language used,
+BOOK:0000013,genre,owl:Class,BOOK:0000004,A category of literary composition,
+BOOK:0000014,topic,owl:Class,BOOK:0000004,The subject matter of a text,
+BOOK:0000015,subgenre,owl:Class,BOOK:0000004,A subcategory within a genre,
